@@ -169,9 +169,11 @@ footer a {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    
     border-bottom: 3px solid;
 }
 
@@ -183,9 +185,7 @@ footer a {
     border-color: #39a6b2;
 }
 
-.intro {
-    text-align: center;
-}
+
 
 .intro p {
     line-height: 1.7;
@@ -196,7 +196,7 @@ footer a {
 }
 
 .steps {
-    text-align: center;
+   
     background: #fce138;
 }
 
@@ -227,7 +227,7 @@ footer a {
 /* trainers styling section */
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -282,20 +282,28 @@ footer a {
 }
 
 .contact {
-    text-align: center;
+
     background:#024e76;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 .contact-info iframe {
     display: inline-block;
+    height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
+  
     color: white;
 }
 
@@ -315,11 +323,6 @@ footer a {
     color: #fce138;
 }
 
-.contact-info iframe {
-    width: 400px;
-    height: 400px;    
-}
-
 .hero {
     margin: 20px;
     background-color: white;
@@ -332,4 +335,8 @@ footer a {
     background-color: black;
     font-size: 20px;
     color: red;
+}
+
+.flex-row {
+    display: flex;
 }
